@@ -8,7 +8,8 @@ day, exactly as the world's public agencies published it — earthquake
 magnitudes and depths (USGS, EMSC), storm winds and pressures (NHC,
 GDACS), wave heights, tides, water temperatures and river flows
 (NOAA, USGS), natural events (NASA EONET), tsunami bulletins (NWS),
-outbreak reports (WHO), and satellite element sets (CelesTrak) — each
+outbreak reports (WHO), and satellite catalog measurements (CelesTrak
+— catalog metadata and snapshot counts, never element sets) — each
 with when it happened, when it was published, and when it reached the
 record, plus the network's own cross-checks between independent
 accounts of the same event.
