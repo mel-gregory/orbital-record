@@ -8,24 +8,26 @@
   "readings": 15540,
   "event_products": 36,
   "tle_snapshots": 1,
+  "catalog_snapshots": 0,
   "feed_runs": 1345,
   "quarantine": 5,
   "event_link_groups": 45,
   "event_link_members": 90,
-  "event_link_pairs": 27,
+  "event_link_pairs": 72,
   "event_link_observations": 0,
   "event_observations": 737,
   "observation_attempts": 959,
   "observer_runs": 424,
-  "board_messages": 636
+  "board_messages": 636,
+  "stations": 137698,
+  "sources": 15
  },
  "events_by_source": {
-  "usgs": 46,
+  "emsc": 296,
+  "usgs": 87,
   "eonet": 6,
-  "gdacs": 3,
   "nws_tsunami": 3,
-  "who": 81,
-  "emsc": 254
+  "who": 1
  },
  "readings_by_source": {
   "noaa_coops": 7192,
@@ -35,7 +37,15 @@
  "quarantine_by_reason": {
   "implausible_timestamp": 5
  },
- "sha256_record_json": "873d229501adf2a21322d032580d86104d928ba7cb2d4ba3891e09699ae7711a",
- "sha256_record_json_gz": "3f90e8b21a520d6fb5b8584498a7928a3c86bd6eda0f0f134134be18b4d20ecf",
- "record_json_gz_bytes": 1331766
+ "sha256_record_json": "2d3e5efe69499e31b3d2a682ec9b30cc84553d0ca16843f90385a2de1a238a8f",
+ "sha256_record_json_gz": "86b0b2d4790ea881c15cdee042c5b8f86e64aa55e416df10b6584448b3121955",
+ "record_json_gz_bytes": 5122414,
+ "reissued_at": "2026-10-18T05:56:23.103053+00:00",
+ "correction_note": "corrections/2026-10-18-reissue.md",
+ "supersedes": {
+  "exported_at": "2026-10-17T00:22:02.986629+00:00",
+  "sha256_record_json": "873d229501adf2a21322d032580d86104d928ba7cb2d4ba3891e09699ae7711a",
+  "sha256_record_json_gz": "3f90e8b21a520d6fb5b8584498a7928a3c86bd6eda0f0f134134be18b4d20ecf",
+  "record_json_gz_bytes": 1331766
+ }
 }

@@ -9,6 +9,7 @@
     "readings": 2109,
     "event_products": 0,
     "tle_snapshots": 0,
+    "catalog_snapshots": 0,
     "feed_runs": 185,
     "quarantine": 107,
     "event_link_groups": 0,
@@ -18,52 +19,60 @@
     "event_observations": 0,
     "observation_attempts": 0,
     "observer_runs": 0,
-    "board_messages": 0
+    "board_messages": 0,
+    "stations": 137698,
+    "sources": 15
    },
-   "sha256_record_json_gz": "b39d92518f5548cd62dd7862978763c2fcf9e369c29f5867fa43a4957d3db5a4",
-   "record_json_gz_bytes": 151210
+   "sha256_record_json_gz": "f8d01dcf4ecc5b25d3dc8cd78ab1e2e36382ce9157af17ad1d47caffbeca976e",
+   "record_json_gz_bytes": 4384222
   },
   {
    "day": "2026-10-14",
    "counts": {
-    "events": 487,
+    "events": 489,
     "readings": 13540,
     "event_products": 17,
     "tle_snapshots": 1,
+    "catalog_snapshots": 0,
     "feed_runs": 1451,
     "quarantine": 220,
     "event_link_groups": 78,
     "event_link_members": 156,
-    "event_link_pairs": 0,
+    "event_link_pairs": 49,
     "event_link_observations": 0,
     "event_observations": 401,
     "observation_attempts": 483,
     "observer_runs": 231,
-    "board_messages": 1729
+    "board_messages": 1729,
+    "stations": 137698,
+    "sources": 15
    },
-   "sha256_record_json_gz": "209b9875748b94172edae3370ab166b1e5b05a85d78ec3f44df73aec389a8123",
-   "record_json_gz_bytes": 1263490
+   "sha256_record_json_gz": "48386ec8f74bc9715d06b69db67da970f0ebb60904cc822d05b477bd8a38e46c",
+   "record_json_gz_bytes": 5600187
   },
   {
    "day": "2026-10-15",
    "counts": {
-    "events": 390,
+    "events": 389,
     "readings": 15191,
     "event_products": 34,
     "tle_snapshots": 1,
+    "catalog_snapshots": 0,
     "feed_runs": 1349,
     "quarantine": 1,
     "event_link_groups": 39,
     "event_link_members": 78,
-    "event_link_pairs": 0,
+    "event_link_pairs": 39,
     "event_link_observations": 0,
     "event_observations": 1101,
     "observation_attempts": 1411,
     "observer_runs": 402,
-    "board_messages": 3354
+    "board_messages": 3354,
+    "stations": 137698,
+    "sources": 15
    },
-   "sha256_record_json_gz": "11f930840f2941b507516adf4ff388f9bcc5bc3b3ff6c2ac621687570e078d49",
-   "record_json_gz_bytes": 854577
+   "sha256_record_json_gz": "bc291f70a070ce56335eac419b91a3b04532836f6e6775b4a34a1fcbd47ddaf9",
+   "record_json_gz_bytes": 5215116
   },
   {
    "day": "2026-10-16",
@@ -72,20 +81,23 @@
     "readings": 15540,
     "event_products": 36,
     "tle_snapshots": 1,
+    "catalog_snapshots": 0,
     "feed_runs": 1345,
     "quarantine": 5,
     "event_link_groups": 45,
     "event_link_members": 90,
-    "event_link_pairs": 27,
+    "event_link_pairs": 72,
     "event_link_observations": 0,
     "event_observations": 737,
     "observation_attempts": 959,
     "observer_runs": 424,
-    "board_messages": 636
+    "board_messages": 636,
+    "stations": 137698,
+    "sources": 15
    },
-   "sha256_record_json_gz": "3f90e8b21a520d6fb5b8584498a7928a3c86bd6eda0f0f134134be18b4d20ecf",
-   "record_json_gz_bytes": 1331766
+   "sha256_record_json_gz": "86b0b2d4790ea881c15cdee042c5b8f86e64aa55e416df10b6584448b3121955",
+   "record_json_gz_bytes": 5122414
   }
  ],
- "updated_at": "2026-10-17T00:22:03.008252+00:00"
+ "updated_at": "2026-10-18T06:02:19.188682+00:00"
 }

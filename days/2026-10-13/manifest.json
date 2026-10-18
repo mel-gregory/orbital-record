@@ -8,6 +8,7 @@
   "readings": 2109,
   "event_products": 0,
   "tle_snapshots": 0,
+  "catalog_snapshots": 0,
   "feed_runs": 185,
   "quarantine": 107,
   "event_link_groups": 0,
@@ -17,7 +18,9 @@
   "event_observations": 0,
   "observation_attempts": 0,
   "observer_runs": 0,
-  "board_messages": 0
+  "board_messages": 0,
+  "stations": 137698,
+  "sources": 15
  },
  "events_by_source": {
   "usgs": 15
@@ -29,7 +32,15 @@
  "quarantine_by_reason": {
   "implausible_timestamp": 107
  },
- "sha256_record_json": "85064f995b87afd037d2893b23c4b6c65cac476b7070940210a4b56f49641b31",
- "sha256_record_json_gz": "b39d92518f5548cd62dd7862978763c2fcf9e369c29f5867fa43a4957d3db5a4",
- "record_json_gz_bytes": 151210
+ "sha256_record_json": "de9bc068f1c911fecadd26873879918979bdf59420ad9c0d47dbb9ffba29ddf0",
+ "sha256_record_json_gz": "f8d01dcf4ecc5b25d3dc8cd78ab1e2e36382ce9157af17ad1d47caffbeca976e",
+ "record_json_gz_bytes": 4384222,
+ "reissued_at": "2026-10-18T05:56:23.103053+00:00",
+ "correction_note": "corrections/2026-10-18-reissue.md",
+ "supersedes": {
+  "exported_at": "2026-10-14T23:50:31.957173+00:00",
+  "sha256_record_json": "85064f995b87afd037d2893b23c4b6c65cac476b7070940210a4b56f49641b31",
+  "sha256_record_json_gz": "b39d92518f5548cd62dd7862978763c2fcf9e369c29f5867fa43a4957d3db5a4",
+  "record_json_gz_bytes": 151210
+ }
 }
