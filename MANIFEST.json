@@ -38,7 +38,7 @@
     "quarantine": 220,
     "event_link_groups": 78,
     "event_link_members": 156,
-    "event_link_pairs": 49,
+    "event_link_pairs": 78,
     "event_link_observations": 0,
     "event_observations": 401,
     "observation_attempts": 483,
@@ -47,8 +47,8 @@
     "stations": 137698,
     "sources": 15
    },
-   "sha256_record_json_gz": "48386ec8f74bc9715d06b69db67da970f0ebb60904cc822d05b477bd8a38e46c",
-   "record_json_gz_bytes": 5600187
+   "sha256_record_json_gz": "ee1d1a635118b13f197591d570cdd8d017324af89503cfbff0d7100768cb1451",
+   "record_json_gz_bytes": 5626991
   },
   {
    "day": "2026-10-15",
@@ -86,7 +86,7 @@
     "quarantine": 5,
     "event_link_groups": 45,
     "event_link_members": 90,
-    "event_link_pairs": 72,
+    "event_link_pairs": 45,
     "event_link_observations": 0,
     "event_observations": 737,
     "observation_attempts": 959,
@@ -95,9 +95,9 @@
     "stations": 137698,
     "sources": 15
    },
-   "sha256_record_json_gz": "86b0b2d4790ea881c15cdee042c5b8f86e64aa55e416df10b6584448b3121955",
-   "record_json_gz_bytes": 5122414
+   "sha256_record_json_gz": "f35572f7b9745e32c650e4d15b929cfd456dc41d249b6d1543c517ed936eb955",
+   "record_json_gz_bytes": 5140620
   }
  ],
- "updated_at": "2026-10-18T06:02:19.188682+00:00"
+ "updated_at": "2026-10-18T13:52:05.460391+00:00"
 }
