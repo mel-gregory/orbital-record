@@ -97,7 +97,151 @@
    },
    "sha256_record_json_gz": "f35572f7b9745e32c650e4d15b929cfd456dc41d249b6d1543c517ed936eb955",
    "record_json_gz_bytes": 5140620
+  },
+  {
+   "day": "2026-10-17",
+   "counts": {
+    "events": 308,
+    "readings": 1016988,
+    "event_products": 24,
+    "tle_snapshots": 1,
+    "catalog_snapshots": 1,
+    "feed_runs": 1679,
+    "quarantine": 3,
+    "event_link_groups": 45,
+    "event_link_members": 90,
+    "event_link_pairs": 45,
+    "event_link_observations": 0,
+    "event_observations": 625,
+    "observation_attempts": 718,
+    "observer_runs": 430,
+    "board_messages": 1605,
+    "stations": 137698,
+    "sources": 15
+   },
+   "sha256_record_json_gz": "d9eaf4a7fe5bf93d2dc3041a31fdca6ca55e7179117ec3abc799fafc626da9ef",
+   "record_json_gz_bytes": 41616198
+  },
+  {
+   "day": "2026-10-18",
+   "counts": {
+    "events": 517,
+    "readings": 47604,
+    "event_products": 21,
+    "tle_snapshots": 1,
+    "catalog_snapshots": 1,
+    "feed_runs": 1814,
+    "quarantine": 3,
+    "event_link_groups": 33,
+    "event_link_members": 66,
+    "event_link_pairs": 33,
+    "event_link_observations": 0,
+    "event_observations": 309,
+    "observation_attempts": 354,
+    "observer_runs": 266,
+    "board_messages": 1950,
+    "stations": 137698,
+    "sources": 15
+   },
+   "sha256_record_json_gz": "10c23fcc08fa8e7439dffe7d1ec6b253851c99b909f483f4e00aeeb9185629fb",
+   "record_json_gz_bytes": 8702988
+  },
+  {
+   "day": "2026-10-19",
+   "counts": {
+    "events": 339,
+    "readings": 71687,
+    "event_products": 19,
+    "tle_snapshots": 0,
+    "catalog_snapshots": 0,
+    "feed_runs": 1758,
+    "quarantine": 2,
+    "event_link_groups": 57,
+    "event_link_members": 114,
+    "event_link_pairs": 57,
+    "event_link_observations": 0,
+    "event_observations": 311,
+    "observation_attempts": 356,
+    "observer_runs": 91,
+    "board_messages": 717,
+    "stations": 137698,
+    "sources": 15
+   },
+   "sha256_record_json_gz": "d4966800ae861ff4eef0aa871433f16edbf0248c5a0104886413e1d90cf6a2fd",
+   "record_json_gz_bytes": 8466763
+  },
+  {
+   "day": "2026-10-20",
+   "counts": {
+    "events": 291,
+    "readings": 42269,
+    "event_products": 8,
+    "tle_snapshots": 0,
+    "catalog_snapshots": 0,
+    "feed_runs": 1707,
+    "quarantine": 1,
+    "event_link_groups": 52,
+    "event_link_members": 104,
+    "event_link_pairs": 52,
+    "event_link_observations": 1,
+    "event_observations": 296,
+    "observation_attempts": 340,
+    "observer_runs": 88,
+    "board_messages": 686,
+    "stations": 137698,
+    "sources": 15
+   },
+   "sha256_record_json_gz": "84e8bf5a191ac4ca5a8a926633268633fa522dffa413785f2893013dd83f9304",
+   "record_json_gz_bytes": 7769696
+  },
+  {
+   "day": "2026-10-21",
+   "counts": {
+    "events": 264,
+    "readings": 49916,
+    "event_products": 4,
+    "tle_snapshots": 0,
+    "catalog_snapshots": 0,
+    "feed_runs": 1759,
+    "quarantine": 0,
+    "event_link_groups": 41,
+    "event_link_members": 82,
+    "event_link_pairs": 41,
+    "event_link_observations": 0,
+    "event_observations": 292,
+    "observation_attempts": 360,
+    "observer_runs": 91,
+    "board_messages": 715,
+    "stations": 137698,
+    "sources": 15
+   },
+   "sha256_record_json_gz": "12089fbb612dc1aa797f38859b31c328847bfb6891b234f5ea44fae3ab48d1e7",
+   "record_json_gz_bytes": 7901811
+  },
+  {
+   "day": "2026-10-22",
+   "counts": {
+    "events": 309,
+    "readings": 52599,
+    "event_products": 32,
+    "tle_snapshots": 0,
+    "catalog_snapshots": 0,
+    "feed_runs": 1749,
+    "quarantine": 1,
+    "event_link_groups": 46,
+    "event_link_members": 92,
+    "event_link_pairs": 46,
+    "event_link_observations": 0,
+    "event_observations": 302,
+    "observation_attempts": 354,
+    "observer_runs": 91,
+    "board_messages": 708,
+    "stations": 137698,
+    "sources": 15
+   },
+   "sha256_record_json_gz": "beefc47e2ce13eab5d30d8473e0987cda7fa355aa80399565c08665585b10965",
+   "record_json_gz_bytes": 8036868
   }
  ],
- "updated_at": "2026-10-18T13:52:05.460391+00:00"
+ "updated_at": "2026-10-23T00:54:03.696491+00:00"
 }

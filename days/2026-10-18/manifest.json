@@ -1,0 +1,48 @@
+{
+ "day": "2026-10-18",
+ "exported_at": "2026-10-23T00:46:02.777599+00:00",
+ "source_url": "https://orbital-ingest-worker-production.up.railway.app/record.json?day=2026-10-18",
+ "record_start": "2026-10-13T19:17:32.267762+00:00",
+ "counts": {
+  "events": 517,
+  "readings": 47604,
+  "event_products": 21,
+  "tle_snapshots": 1,
+  "catalog_snapshots": 1,
+  "feed_runs": 1814,
+  "quarantine": 3,
+  "event_link_groups": 33,
+  "event_link_members": 66,
+  "event_link_pairs": 33,
+  "event_link_observations": 0,
+  "event_observations": 309,
+  "observation_attempts": 354,
+  "observer_runs": 266,
+  "board_messages": 1950,
+  "stations": 137698,
+  "sources": 15
+ },
+ "events_by_source": {
+  "usgs": 49,
+  "emsc": 411,
+  "eonet": 53,
+  "nws_tsunami": 2,
+  "gdacs": 1,
+  "celestrak": 1
+ },
+ "readings_by_source": {
+  "swpc": 4725,
+  "glm": 8629,
+  "noaa_coops": 7245,
+  "usgs_nwis": 1190,
+  "ghcn": 8819,
+  "ndbc": 7201,
+  "igra": 9795
+ },
+ "quarantine_by_reason": {
+  "implausible_timestamp": 3
+ },
+ "sha256_record_json": "a8bce01138ade6246a82e4e149c48f6cb7820665c48292602eb1f912c6ba9e37",
+ "sha256_record_json_gz": "10c23fcc08fa8e7439dffe7d1ec6b253851c99b909f483f4e00aeeb9185629fb",
+ "record_json_gz_bytes": 8702988
+}
