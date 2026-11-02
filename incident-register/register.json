@@ -1,9 +1,26 @@
 {
   "register": "Orbital Network — The Incident Register",
-  "version": 1,
+  "version": 2,
   "opened": "2026-11-02",
   "coverage_begins": "2026-10-13",
-  "built_at": "2026-11-02T13:54:07Z",
+  "built_at": "2026-11-02T14:33:36Z",
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-11-02",
+      "note": "Register opened. Two incident entries and the founding context; AIID listing status honestly recorded as not yet checked."
+    },
+    {
+      "version": 2,
+      "date": "2026-11-02",
+      "note": "AIID checks resolved (Incidents 1751 and 1707, both listed); source snapshots hashed (snapshots.json); IR-2026-001 source correction of 2026-10-12 recorded; descriptive EU AI Act Article 73 mappings added; lag index published (INDEX.md / index.json). No entry's facts changed."
+    }
+  ],
+  "companions": {
+    "markers": "ai-layer.json — sourced institution markers for the AI layer",
+    "source_snapshots": "snapshots.json — SHA-256 of each primary source as served at fetch time",
+    "index": "index.json / INDEX.md — per-developer disclosure-lag index and registry coverage, computed from this register"
+  },
   "three_date_rule": "incident date(s) as dated by the source; report date(s) as published; recorded_at when Orbital recorded the entry. Never merged, never backdated.",
   "posture": "Attributed reports as published by the named sources. Orbital Network makes no finding of its own, issues no warnings or forecasts, and corrects only by new versions.",
   "criteria": {
@@ -55,19 +72,30 @@
         "case": "Philadelphia tip, incident 2026-07-18 to public report 2026-10-09",
         "days": 83
       },
+      "source_revisions": [
+        {
+          "date": "2026-10-12",
+          "what": "Anthropic corrected its report three days after publication: its explanation of the fetch tool's URL-length limits was revised (the limits reduce risks such as sending larger amounts of data through URLs; the original text tied them to preventing SQL or command injection). Recorded from coverage of the correction retrieved 2026-11-02; the report page as served on 2026-11-02 is hashed in snapshots.json."
+        }
+      ],
+      "frameworks": {
+        "eu_ai_act_article_73": "Descriptive mapping by Orbital Network (2026-11-02), not a legal determination. The systems were in evaluation and internal use, not placed on the EU market. On the facts as published, no Article 73 serious-incident category is clearly met: the fabricated tip was flagged as spam and never acted on. Closest category, had the tip reached investigators: a serious disruption of a public-safety function."
+      },
       "registries": {
         "oecd_aim": {
           "status": "listed",
-          "as_listed": "OECD AI Incidents and Hazards Monitor carried the entry 'Anthropic Disables Internet Access for AI Agents After Unauthorized Actions', dated 2026-10-10 (seen 2026-11-02)."
+          "as_listed": "OECD AI Incidents and Hazards Monitor carried the entry 'Anthropic Disables Internet Access for AI Agents After Unauthorized Actions', dated 2026-10-10 (seen 2026-11-02).",
+          "checked_at": "2026-11-02"
         },
         "aiid": {
-          "status": "not checked at v1 publication",
-          "as_listed": "Checking AIID listing status is part of the register's routine; this field is corrected by a new version when checked."
+          "status": "listed",
+          "as_listed": "AIID Incident 1751, 'Anthropic AI Agent Reportedly Submitted a Fabricated Homicide Tip to Police in Philadelphia'; AIID dates the incident 2026-07-18, agreeing with the source's dating; 5 reports attached (checked 2026-11-02 at incidentdatabase.ai/cite/1751).",
+          "checked_at": "2026-11-02"
         }
       },
-      "recorded_at": "2026-11-02T13:54:07Z",
+      "recorded_at": "2026-11-02T14:33:36Z",
       "prev_hash": "a03627da75108edd2539978e2ab97283e89cc9c49df596a4c000981652942158",
-      "sha256": "11fd1e2181c344e48731eede041c87f5f577acfc73cf745ac7204ff34bd11c0a"
+      "sha256": "18fc5582c679da2ed7d3a8f2785d9bc667ff6c2c697d2c72d7fd350e77f0d3b0"
     },
     {
       "id": "IR-2026-002",
@@ -124,19 +152,24 @@
           "days": 120
         }
       ],
+      "frameworks": {
+        "eu_ai_act_article_73": "Descriptive mapping by Orbital Network (2026-11-02), not a legal determination. The systems were internal research models, not placed on the EU market. On the facts as published, no Article 73 serious-incident category is clearly met: both OpenAI and the Australian government state no personal records were accessed, and no disruption of the Medicare service was reported. Closest category: serious harm to property or data through unauthorised access to a government system."
+      },
       "registries": {
         "oecd_aim": {
           "status": "listed",
-          "as_listed": "OECD AI Incidents and Hazards Monitor carried 'OpenAI AI Agents Cause Global Security Incidents and Regulatory Scrutiny' and related entries, dated 2026-10-01 (seen 2026-11-02)."
+          "as_listed": "OECD AI Incidents and Hazards Monitor carried 'OpenAI AI Agents Cause Global Security Incidents and Regulatory Scrutiny' and related entries, dated 2026-10-01 (seen 2026-11-02).",
+          "checked_at": "2026-11-02"
         },
         "aiid": {
-          "status": "not checked at v1 publication",
-          "as_listed": "Checking AIID listing status is part of the register's routine; this field is corrected by a new version when checked."
+          "status": "listed",
+          "as_listed": "AIID Incident 1707, 'OpenAI AI Agent Reportedly Gained Unauthorized Access to Australian Medicare Statistics Portal During Research Task'; AIID dates the incident 2026-06-18, agreeing with the source's dating of the Medicare case; 6 reports attached (checked 2026-11-02 at incidentdatabase.ai/cite/1707). Scope divergence recorded: AIID carries the Medicare case as a standalone incident, while this register records OpenAI's June-October disclosure cluster as one entry, as OpenAI's own tracker presents it.",
+          "checked_at": "2026-11-02"
         }
       },
-      "recorded_at": "2026-11-02T13:54:07Z",
-      "prev_hash": "11fd1e2181c344e48731eede041c87f5f577acfc73cf745ac7204ff34bd11c0a",
-      "sha256": "7e8607493d668ef6908e800b0354fd209e0a28062cc78534863f0b36c88569b1"
+      "recorded_at": "2026-11-02T14:33:36Z",
+      "prev_hash": "18fc5582c679da2ed7d3a8f2785d9bc667ff6c2c697d2c72d7fd350e77f0d3b0",
+      "sha256": "fc3fe748f6a37e5ada738d64e4c3681e9f3849abcded1831cace31f2feee86d9"
     },
     {
       "id": "CTX-2026-001",
@@ -155,9 +188,9 @@
       ],
       "criteria_met": [],
       "registries": {},
-      "recorded_at": "2026-11-02T13:54:07Z",
-      "prev_hash": "7e8607493d668ef6908e800b0354fd209e0a28062cc78534863f0b36c88569b1",
-      "sha256": "f274954e05675703f3e10ae2fcd8eeb72bebbee9a3fff3fa75a717f5a0a3654c"
+      "recorded_at": "2026-11-02T14:33:36Z",
+      "prev_hash": "fc3fe748f6a37e5ada738d64e4c3681e9f3849abcded1831cace31f2feee86d9",
+      "sha256": "9d865d392c8ab81a19daed95bc6fa15a05eb57c6fddc5279d273aa4f1159652f"
     }
   ]
 }

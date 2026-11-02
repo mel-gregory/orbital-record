@@ -1,0 +1,57 @@
+{
+  "register": "Orbital Network — The Incident Register",
+  "register_version": 2,
+  "built_from_register_at": "2026-11-02T14:33:36Z",
+  "entries_total": 3,
+  "incident_entries": 2,
+  "disclosure_lags_days": {
+    "all_measured": [
+      83,
+      84,
+      120
+    ],
+    "median": 84,
+    "max": 120,
+    "min": 83
+  },
+  "developers": {
+    "Anthropic": {
+      "entries": [
+        "IR-2026-001"
+      ],
+      "lags_days": [
+        83
+      ],
+      "lag_median_days": 83,
+      "lag_max_days": 83,
+      "lag_min_days": 83
+    },
+    "OpenAI": {
+      "entries": [
+        "IR-2026-002"
+      ],
+      "lags_days": [
+        84,
+        120
+      ],
+      "lag_median_days": 102.0,
+      "lag_max_days": 120,
+      "lag_min_days": 84
+    }
+  },
+  "registry_coverage": {
+    "aiid": {
+      "listed": 2,
+      "checked": 2
+    },
+    "oecd_aim": {
+      "listed": 2,
+      "checked": 2
+    }
+  },
+  "criteria_counts": {
+    "B": 2,
+    "C": 2
+  },
+  "institutions_indexed": []
+}

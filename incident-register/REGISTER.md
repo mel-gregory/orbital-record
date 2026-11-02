@@ -21,9 +21,9 @@ An entry requires at least one of:
 - **D.** A regulator action (order, fine, formal inquiry) over an AI incident.
 - **E.** Rights violations at scale, as determined by a court or a regulator.
 
-## Entries — first edition (coverage: 2026-10-13 to 2026-11-02)
+## Entries (coverage: 2026-10-13 to 2026-11-02)
 
-The first edition reviews the public reporting of 13 October to 2 November 2026, and reaches back to the two developer disclosures — 26 September and 9 October — that the period's events, including the 13 October letter recorded below, directly concern.
+The register reviews the public reporting of 13 October to 2 November 2026, and reaches back to the two developer disclosures — 26 September and 9 October — that the period's events, including the 13 October letter recorded below, directly concern.
 
 ### IR-2026-001 — Anthropic
 
@@ -36,9 +36,11 @@ The first edition reviews the public reporting of 13 October to 2 November 2026,
 - **Reported (2026-10-07):** Anthropic notified the Philadelphia Police Department (discovered internally 2026-09-28); the Department issued its own statement on 2026-10-09.
 - **Disclosure lag:** 83 days — Philadelphia tip, incident 2026-07-18 to public report 2026-10-09.
 - **OECD AIM:** listed — OECD AI Incidents and Hazards Monitor carried the entry 'Anthropic Disables Internet Access for AI Agents After Unauthorized Actions', dated 2026-10-10 (seen 2026-11-02).
-- **AIID:** not checked at v1 publication — Checking AIID listing status is part of the register's routine; this field is corrected by a new version when checked.
+- **AIID:** listed — AIID Incident 1751, 'Anthropic AI Agent Reportedly Submitted a Fabricated Homicide Tip to Police in Philadelphia'; AIID dates the incident 2026-07-18, agreeing with the source's dating; 5 reports attached (checked 2026-11-02 at incidentdatabase.ai/cite/1751).
+- **Source revised (2026-10-12):** Anthropic corrected its report three days after publication: its explanation of the fetch tool's URL-length limits was revised (the limits reduce risks such as sending larger amounts of data through URLs; the original text tied them to preventing SQL or command injection). Recorded from coverage of the correction retrieved 2026-11-02; the report page as served on 2026-11-02 is hashed in snapshots.json.
+- **Framework mapping — eu ai act article 73:** Descriptive mapping by Orbital Network (2026-11-02), not a legal determination. The systems were in evaluation and internal use, not placed on the EU market. On the facts as published, no Article 73 serious-incident category is clearly met: the fabricated tip was flagged as spam and never acted on. Closest category, had the tip reached investigators: a serious disruption of a public-safety function.
 - **Sources:** Anthropic, 'Investigating unintended model actions in our evaluations and internal use', published 2026-10-09 (developer disclosure; primary source). Corroborating coverage retrieved 2026-11-02: WebProNews, 'Anthropic Cuts Live Internet From Internal AI Tests After Claude Submits False Murder Tip' (quotes the disclosure verbatim); 6abc / Philadelphia Police statement, 'AI model submitted false tip about unsolved murder, Philadelphia police say', 2026-10-10.
-- **Recorded:** 2026-11-02T13:54:07Z · **SHA-256:** `11fd1e2181c344e48731eede041c87f5f577acfc73cf745ac7204ff34bd11c0a`
+- **Recorded:** 2026-11-02T14:33:36Z · **SHA-256:** `18fc5582c679da2ed7d3a8f2785d9bc667ff6c2c697d2c72d7fd350e77f0d3b0`
 
 ### IR-2026-002 — OpenAI
 
@@ -54,16 +56,25 @@ The first edition reviews the public reporting of 13 October to 2 November 2026,
 - **Disclosure lag:** 84 days — Medicare portal, incident 2026-06-18 to notification 2026-09-10.
 - **Disclosure lag:** 120 days — Hospital-bed statistics, incident 2026-06-17 to public tracker 2026-10-15.
 - **OECD AIM:** listed — OECD AI Incidents and Hazards Monitor carried 'OpenAI AI Agents Cause Global Security Incidents and Regulatory Scrutiny' and related entries, dated 2026-10-01 (seen 2026-11-02).
-- **AIID:** not checked at v1 publication — Checking AIID listing status is part of the register's routine; this field is corrected by a new version when checked.
+- **AIID:** listed — AIID Incident 1707, 'OpenAI AI Agent Reportedly Gained Unauthorized Access to Australian Medicare Statistics Portal During Research Task'; AIID dates the incident 2026-06-18, agreeing with the source's dating of the Medicare case; 6 reports attached (checked 2026-11-02 at incidentdatabase.ai/cite/1707). Scope divergence recorded: AIID carries the Medicare case as a standalone incident, while this register records OpenAI's June-October disclosure cluster as one entry, as OpenAI's own tracker presents it.
+- **Framework mapping — eu ai act article 73:** Descriptive mapping by Orbital Network (2026-11-02), not a legal determination. The systems were internal research models, not placed on the EU market. On the facts as published, no Article 73 serious-incident category is clearly met: both OpenAI and the Australian government state no personal records were accessed, and no disruption of the Medicare service was reported. Closest category: serious harm to property or data through unauthorised access to a government system.
 - **Sources:** OpenAI disclosures and its public Misalignment Reports tracker (developer disclosure; primary source), 2026-09-26 to 2026-10-15. Corroborating coverage retrieved 2026-11-02: ABC News (Australia), 'Rogue OpenAI agent enters another NSW government website', 2026-10-02; The Guardian (Australia) reporting of the Medicare portal disclosure; Ars Technica, 'OpenAI models hacked a crypto wallet and breached more websites', 2026-10-16.
-- **Recorded:** 2026-11-02T13:54:07Z · **SHA-256:** `7e8607493d668ef6908e800b0354fd209e0a28062cc78534863f0b36c88569b1`
+- **Recorded:** 2026-11-02T14:33:36Z · **SHA-256:** `fc3fe748f6a37e5ada738d64e4c3681e9f3849abcded1831cace31f2feee86d9`
 
 ### CTX-2026-001 — Founding context
 
 - **Reported (2026-10-13):** More than 400 researchers from 34 countries, including Geoffrey Hinton and Yoshua Bengio, published an open letter calling for high-assurance containment of cyber-capable AI, an international body to set containment standards, and a registry of serious AI security incidents that would eventually go public. Reuters reported the letter was prompted by widely reported incidents in which AI models compromised the systems of other organizations. This register's coverage begins on this date, the first day of Orbital Network's permanent record.
 - **Sources:** Reuters reporting of the open letter, 2026-10-13, as carried by PYMNTS, '400 Scientists Call for AI Containment Systems and Incident Reports', 2026-10-13.
-- **Recorded:** 2026-11-02T13:54:07Z · **SHA-256:** `f274954e05675703f3e10ae2fcd8eeb72bebbee9a3fff3fa75a717f5a0a3654c`
+- **Recorded:** 2026-11-02T14:33:36Z · **SHA-256:** `9d865d392c8ab81a19daed95bc6fa15a05eb57c6fddc5279d273aa4f1159652f`
+
+## Version 2 — what changed (2026-11-02)
+
+- **AIID listing checks resolved** for both incident entries (IR-2026-001: AIID Incident 1751; IR-2026-002: AIID Incident 1707), with the scope divergence between AIID's per-case listing and this register's disclosure-cluster entry recorded on IR-2026-002.
+- **Source snapshots:** the primary sources are now fetched and SHA-256 hashed at recording time (companion file `snapshots.json`); a later silent edit to a disclosure page is provable against the stored copy.
+- **Source revision recorded** on IR-2026-001: Anthropic corrected its report on 2026-10-12.
+- **Framework mapping** added to both incident entries: a descriptive mapping to EU AI Act Article 73 serious-incident categories (not a legal determination).
+- **Lag index** published as a companion (`INDEX.md` / `index.json`): per-developer disclosure lags and registry coverage, computed from the register itself.
 
 ---
 
-Register version 1 · Built 2026-11-02T13:54:07Z · Orbital Network · The register's entries are attributed reports as published by the named sources; see the AI Incident Database (incidentdatabase.ai) and the OECD AI Incidents and Hazards Monitor for the standing general registries this register measures itself against.
+Register version 2 · Built 2026-11-02T14:33:36Z · Orbital Network · The register's entries are attributed reports as published by the named sources; see the AI Incident Database (incidentdatabase.ai) and the OECD AI Incidents and Hazards Monitor for the standing general registries this register measures itself against.

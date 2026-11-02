@@ -1,0 +1,43 @@
+{
+  "register": "Orbital Network — The Incident Register",
+  "what": "SHA-256 snapshots of the register's primary sources as served at fetch time. A later hash mismatch against a fresh fetch proves the page changed; the stored copy shows what it said. Snapshots are kept with the register's working files; this manifest is published with the register.",
+  "fetched_at": "2026-11-02T14:32:56Z",
+  "snapshots": [
+    {
+      "entry": "IR-2026-001",
+      "role": "primary developer disclosure",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "fetched_at": "2026-11-02T14:32:56Z",
+      "bytes": 192224,
+      "sha256": "1a3c385c0f8d031ef9fc1f1766331925ef3632cfbbae68ebf011bde11f7588e9",
+      "stored_as": "snapshots/IR-2026-001--1a3c385c0f8d.html"
+    },
+    {
+      "entry": "IR-2026-001",
+      "role": "AIID listing",
+      "url": "https://incidentdatabase.ai/cite/1751",
+      "fetched_at": "2026-11-02T14:32:56Z",
+      "bytes": 382586,
+      "sha256": "4c071df4d8417f448c1b3d9757a9a07c548b60c6747b53901cad47dfcc09fb1a",
+      "stored_as": "snapshots/IR-2026-001--4c071df4d841.html"
+    },
+    {
+      "entry": "IR-2026-002",
+      "role": "primary developer disclosure (tracker)",
+      "url": "https://alignment.openai.com/misalignment-reports/",
+      "fetched_at": "2026-11-02T14:32:56Z",
+      "bytes": 62739,
+      "sha256": "f4bb0a73c779464887a5ce584d34d408c12e64e8fa51c32b1ee3320c9463cc57",
+      "stored_as": "snapshots/IR-2026-002--f4bb0a73c779.html"
+    },
+    {
+      "entry": "IR-2026-002",
+      "role": "AIID listing",
+      "url": "https://incidentdatabase.ai/cite/1707",
+      "fetched_at": "2026-11-02T14:32:56Z",
+      "bytes": 406215,
+      "sha256": "498937137c452e995d2e95d0894eebb075b3a072fcd11e070065d859a3c4eebd",
+      "stored_as": "snapshots/IR-2026-002--498937137c45.html"
+    }
+  ]
+}
