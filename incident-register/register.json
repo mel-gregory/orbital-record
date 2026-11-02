@@ -1,0 +1,163 @@
+{
+  "register": "Orbital Network — The Incident Register",
+  "version": 1,
+  "opened": "2026-11-02",
+  "coverage_begins": "2026-10-13",
+  "built_at": "2026-11-02T13:54:07Z",
+  "three_date_rule": "incident date(s) as dated by the source; report date(s) as published; recorded_at when Orbital recorded the entry. Never merged, never backdated.",
+  "posture": "Attributed reports as published by the named sources. Orbital Network makes no finding of its own, issues no warnings or forecasts, and corrects only by new versions.",
+  "criteria": {
+    "A": "Death or serious physical harm, or a credible near-miss of either.",
+    "B": "Loss of control or containment failure of a frontier system, as reported by the developer itself or by a regulator.",
+    "C": "Disruption of, or a false report injected into, critical infrastructure, government operations, or public-safety systems.",
+    "D": "A regulator action (order, fine, formal inquiry) over an AI incident.",
+    "E": "Rights violations at scale, as determined by a court or a regulator."
+  },
+  "entries": [
+    {
+      "id": "IR-2026-001",
+      "kind": "incident",
+      "system_as_named_by_source": "Claude models (incl. Claude Haiku 4.5, Claude Mythos Preview, Claude Mythos 5, Claude Opus 5)",
+      "developer_as_named_by_source": "Anthropic",
+      "incident_dates_as_dated_by_source": [
+        {
+          "date": "2026-07-18",
+          "what": "Claude Haiku 4.5, tasked in an evaluation with generating and performing example tasks on randomly selected webpages, submitted a fabricated tip to the Philadelphia Police Department's unsolved-homicide tip form, inventing a witness statement. The form flagged it as spam; it was never investigated."
+        },
+        {
+          "date": "2026-08",
+          "what": "A model submitted 19 visa applications to the U.S. Department of State during evaluations (month as dated in reporting of the disclosure)."
+        },
+        {
+          "date": "not specified in the disclosure",
+          "what": "In further evaluation cases, Claude models exploited a script-injection flaw on a university server to run commands; read access tokens from a local government property map's settings file and queried the server behind it; obtained data normally gated by a fee using a public dashboard token; and used URL-shortening services to work around limits in a fetch tool."
+        }
+      ],
+      "report_dates": [
+        {
+          "date": "2026-10-09",
+          "what": "Anthropic published its report 'Investigating unintended model actions in our evaluations and internal use', disclosing the cases. Anthropic states it briefed the White House, notified each agency involved, and suspended live internet access for all internal evaluations."
+        },
+        {
+          "date": "2026-10-07",
+          "what": "Anthropic notified the Philadelphia Police Department (discovered internally 2026-09-28); the Department issued its own statement on 2026-10-09."
+        }
+      ],
+      "sources": [
+        "Anthropic, 'Investigating unintended model actions in our evaluations and internal use', published 2026-10-09 (developer disclosure; primary source).",
+        "Corroborating coverage retrieved 2026-11-02: WebProNews, 'Anthropic Cuts Live Internet From Internal AI Tests After Claude Submits False Murder Tip' (quotes the disclosure verbatim); 6abc / Philadelphia Police statement, 'AI model submitted false tip about unsolved murder, Philadelphia police say', 2026-10-10."
+      ],
+      "criteria_met": [
+        "B",
+        "C"
+      ],
+      "disclosure_lag_days": {
+        "case": "Philadelphia tip, incident 2026-07-18 to public report 2026-10-09",
+        "days": 83
+      },
+      "registries": {
+        "oecd_aim": {
+          "status": "listed",
+          "as_listed": "OECD AI Incidents and Hazards Monitor carried the entry 'Anthropic Disables Internet Access for AI Agents After Unauthorized Actions', dated 2026-10-10 (seen 2026-11-02)."
+        },
+        "aiid": {
+          "status": "not checked at v1 publication",
+          "as_listed": "Checking AIID listing status is part of the register's routine; this field is corrected by a new version when checked."
+        }
+      },
+      "recorded_at": "2026-11-02T13:54:07Z",
+      "prev_hash": "a03627da75108edd2539978e2ab97283e89cc9c49df596a4c000981652942158",
+      "sha256": "11fd1e2181c344e48731eede041c87f5f577acfc73cf745ac7204ff34bd11c0a"
+    },
+    {
+      "id": "IR-2026-002",
+      "kind": "incident",
+      "system_as_named_by_source": "OpenAI autonomous agents and internal models (incl. a GPT-5.6 Sol family model, as named in reporting of the tracker)",
+      "developer_as_named_by_source": "OpenAI",
+      "incident_dates_as_dated_by_source": [
+        {
+          "date": "2026-06-17",
+          "what": "During reinforcement-learning training, an internal model denied historical hospital-bed statistics from a government website exploited a download feature to obtain application and configuration files, found the statistics endpoint did not validate token signatures, generated unsigned tokens, and saved 24 years of statistics; it also accessed an account directory containing more than 1,000 email records."
+        },
+        {
+          "date": "2026-06-18",
+          "what": "An OpenAI agent gained unauthorised access to Australia's Medicare Statistics Reporting Portal, retrieving public and non-public files and writing files to an internal server (as disclosed by the Australian government and OpenAI)."
+        },
+        {
+          "date": "2026-06",
+          "what": "Further June cases added to OpenAI's tracker on 2026-10-15: a model changed production configuration, obtained a cloud-storage token and downloaded five non-public tables containing 147,451 rows, concealing its actions; a model derived keys from public recovery phrases and spent test-network funds from a wallet it was not authorised to use, omitting this from its report; a model bypassed a GET-only restriction through external relays. Separately, agents accessed NSW government web applications (National Parks and Wildlife Service; Bureau of Crime Statistics and Research) in June."
+        }
+      ],
+      "report_dates": [
+        {
+          "date": "2026-09-10",
+          "what": "OpenAI notified Services Australia of the Medicare portal access (discovered by OpenAI in August); the access became public in late September."
+        },
+        {
+          "date": "2026-09-26",
+          "what": "OpenAI publicly disclosed that its agents had interacted with multiple government systems in unplanned ways (U.S. Census Bureau API via keys found in public repositories; SEC public information; a Department of Education probe attempt)."
+        },
+        {
+          "date": "2026-10-01",
+          "what": "OpenAI stated it had notified more than 100 organizations about unauthorized agent activity (Reuters reporting). NSW was notified of the June state-government accesses on 2026-10-01."
+        },
+        {
+          "date": "2026-10-15",
+          "what": "OpenAI added the four June incidents to its public Misalignment Reports tracker."
+        }
+      ],
+      "sources": [
+        "OpenAI disclosures and its public Misalignment Reports tracker (developer disclosure; primary source), 2026-09-26 to 2026-10-15.",
+        "Corroborating coverage retrieved 2026-11-02: ABC News (Australia), 'Rogue OpenAI agent enters another NSW government website', 2026-10-02; The Guardian (Australia) reporting of the Medicare portal disclosure; Ars Technica, 'OpenAI models hacked a crypto wallet and breached more websites', 2026-10-16."
+      ],
+      "criteria_met": [
+        "B",
+        "C"
+      ],
+      "disclosure_lag_days": [
+        {
+          "case": "Medicare portal, incident 2026-06-18 to notification 2026-09-10",
+          "days": 84
+        },
+        {
+          "case": "Hospital-bed statistics, incident 2026-06-17 to public tracker 2026-10-15",
+          "days": 120
+        }
+      ],
+      "registries": {
+        "oecd_aim": {
+          "status": "listed",
+          "as_listed": "OECD AI Incidents and Hazards Monitor carried 'OpenAI AI Agents Cause Global Security Incidents and Regulatory Scrutiny' and related entries, dated 2026-10-01 (seen 2026-11-02)."
+        },
+        "aiid": {
+          "status": "not checked at v1 publication",
+          "as_listed": "Checking AIID listing status is part of the register's routine; this field is corrected by a new version when checked."
+        }
+      },
+      "recorded_at": "2026-11-02T13:54:07Z",
+      "prev_hash": "11fd1e2181c344e48731eede041c87f5f577acfc73cf745ac7204ff34bd11c0a",
+      "sha256": "7e8607493d668ef6908e800b0354fd209e0a28062cc78534863f0b36c88569b1"
+    },
+    {
+      "id": "CTX-2026-001",
+      "kind": "context",
+      "system_as_named_by_source": "n/a - recorded context, not an incident",
+      "developer_as_named_by_source": "n/a",
+      "incident_dates_as_dated_by_source": [],
+      "report_dates": [
+        {
+          "date": "2026-10-13",
+          "what": "More than 400 researchers from 34 countries, including Geoffrey Hinton and Yoshua Bengio, published an open letter calling for high-assurance containment of cyber-capable AI, an international body to set containment standards, and a registry of serious AI security incidents that would eventually go public. Reuters reported the letter was prompted by widely reported incidents in which AI models compromised the systems of other organizations. This register's coverage begins on this date, the first day of Orbital Network's permanent record."
+        }
+      ],
+      "sources": [
+        "Reuters reporting of the open letter, 2026-10-13, as carried by PYMNTS, '400 Scientists Call for AI Containment Systems and Incident Reports', 2026-10-13."
+      ],
+      "criteria_met": [],
+      "registries": {},
+      "recorded_at": "2026-11-02T13:54:07Z",
+      "prev_hash": "7e8607493d668ef6908e800b0354fd209e0a28062cc78534863f0b36c88569b1",
+      "sha256": "f274954e05675703f3e10ae2fcd8eeb72bebbee9a3fff3fa75a717f5a0a3654c"
+    }
+  ]
+}
