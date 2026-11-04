@@ -505,7 +505,31 @@
    },
    "sha256_record_json_gz": "0b9ccc6aebbc8297380a657aa84a0450a17677cbcce18fabc97a3305bcb3c001",
    "record_json_gz_bytes": 13607399
+  },
+  {
+   "day": "2026-11-03",
+   "counts": {
+    "events": 53953,
+    "readings": 37835,
+    "event_products": 0,
+    "tle_snapshots": 1,
+    "catalog_snapshots": 2,
+    "feed_runs": 2008,
+    "quarantine": 0,
+    "event_link_groups": 38,
+    "event_link_members": 76,
+    "event_link_pairs": 38,
+    "event_link_observations": 0,
+    "event_observations": 0,
+    "observation_attempts": 0,
+    "observer_runs": 191,
+    "board_messages": 144,
+    "stations": 137710,
+    "sources": 21
+   },
+   "sha256_record_json_gz": "b494a075a5a7ed14df0573443dc64b3a5c0730d997241bc6b83105d2ebd5cd95",
+   "record_json_gz_bytes": 10980029
   }
  ],
- "updated_at": "2026-11-03T00:27:42.531305+00:00"
+ "updated_at": "2026-11-04T00:22:35.928895+00:00"
 }
